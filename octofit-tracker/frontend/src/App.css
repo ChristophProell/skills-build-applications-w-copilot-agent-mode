@@ -1,0 +1,107 @@
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #2c3e50;
+}
+
+.App {
+  text-align: center;
+  background: transparent;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%) !important;
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.nav-link {
+  color: #f8f9fa !important;
+  font-weight: 500;
+}
+.nav-link.active, .nav-link:hover {
+  color: #ffd700 !important;
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.card-title {
+  color: #007bff;
+}
+.btn-primary, .btn-success, .btn-warning, .btn-info, .btn-secondary {
+  border-radius: 8px;
+  font-weight: 600;
+  box-shadow: 0 1px 4px rgba(0,123,255,0.15);
+}
+.btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  border: none;
+}
+.btn-success {
+  background: linear-gradient(90deg, #28a745 0%, #a8ff78 100%);
+  border: none;
+}
+.btn-warning {
+  background: linear-gradient(90deg, #ffc107 0%, #ffecb3 100%);
+  border: none;
+}
+.btn-info {
+  background: linear-gradient(90deg, #17a2b8 0%, #a1c4fd 100%);
+  border: none;
+}
+.btn-secondary {
+  background: linear-gradient(90deg, #6c757d 0%, #d3cce3 100%);
+  border: none;
+}
+
+table {
+  background: #f7faff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+th {
+  background: #007bff;
+  color: #fff;
+}
+tr:nth-child(even) {
+  background: #e0eafc;
+}
+tr:hover {
+  background: #b2f0fc;
+}
+td, th {
+  padding: 0.75rem;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffd700;
+}
+
+.App-logo {
+  height: 40px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
